@@ -6,6 +6,7 @@ WWW = membuka dokumen html, sistem (kode untuk membuka akses internet)
 web browser = alat untuk membuka dokumen 
 
 domain = .com , dsb
+
 hosting = alat untuk publikasi (server), aws, railway, vercel, 
 
 ---
