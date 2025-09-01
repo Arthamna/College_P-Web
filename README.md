@@ -1,6 +1,7 @@
 # College_P-Web
-Dokumentasi pembelajaran Pemrograman Web
+(IN) Dokumentasi pembelajaran Pemrograman Web
 
+(EN) Web Programming documentation
 ## Daftar Isi :
 
 1. [Pertemuan 1](./Pertemuan%201/)  
