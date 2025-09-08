@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Form Login
+    </title>
+<body>
+    <form method= "post">
+        <!-- template instead of table, fieldset -->
+        <fieldset>
+            <legend>Login</legend>
+            <p>
+                <label>Username :</label>
+                <input type="text" name="user" size="20"/>
+            </p>
+            <!-- but fieldset gak punya pemisah, automatis, jadi pakai new paragraf -->
+            <p>
+                <label>Password :</label>
+                <input type="text" name="Password" size="20"/>
+            </p>
+            <!-- check box is different syntax -->
+                <label><input type="checkbox"/> Remember </label>
+            <p>
+                <input type="submit"/>
+            </p>
+            </fieldset>
+    </form>
+</body>
