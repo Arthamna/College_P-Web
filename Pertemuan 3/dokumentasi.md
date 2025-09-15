@@ -2,7 +2,6 @@
 # Dokumentasi
 
 ---
-CSS : Untuk mengatur layout (tampilan, style)
 ## Screenshot Latihan Table 
 
 ![](img/table.png)
