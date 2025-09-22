@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic DropDown List dengan Javascript</title>
+</head>
+<body>
+  <div>
+    <h1>Dynamic DropDown List dengan Javascript</h1>
+
+    <label for="productSelect">Pilih Jenis Produk:</label>
+    <select id="productSelect">
+      <option value="">-- Pilih Jenis Produk --</option>
+    </select>
+
+    <label for="brandSelect" style="margin-left:12px">Pilih Merk:</label>
+    <select id="brandSelect" disabled>
+      <option value="">-- Pilih Merk --</option>
+    </select>
+  </div>
+
+  <script>
+    const product = ["Desktop", "Laptop", "Smartphone"];
+    const merk = {
+      "Desktop": ["Dell", "HP", "Lenovo"],
+      "Laptop":  ["Asus", "Acer", "MacBook"],
+      "Smartphone": ["Xiaomi", "Samsung", "iPhone"]
+    };
+
+    const productSelect = document.getElementById("productSelect");
+    const brandSelect = document.getElementById("brandSelect");
+
+    function populateProducts() {
+      product.forEach(p => {
+        const opt = document.createElement("option");
+        opt.value = p;
+        opt.textContent = p;
+        productSelect.appendChild(opt);
+      });
+    }
+
+    function populateBrands(productName) {
+      brandSelect.innerHTML = '<option value="">-- Pilih Merk --</option>';
+
+      if (!productName || !merk[productName]) {
+        brandSelect.disabled = true; 
+        return;
+      }
+
+      merk[productName].forEach(b => {
+        const opt = document.createElement("option");
+        opt.value = b;
+        opt.textContent = b;
+        brandSelect.appendChild(opt);
+      });
+
+      brandSelect.disabled = false;
+      brandSelect.selectedIndex = 0; // pilih placeholder dulu
+    }
+
+    populateProducts();
+    populateBrands(null);
+
+    productSelect.addEventListener("change", (e) => {
+      populateBrands(e.target.value);
+    });
+  </script>
+</body>
+</html>
