@@ -6,15 +6,15 @@
 
 
 ## Tampilan Awal
-![](/imgs/index.png)
+![](/Pertemuan12/imgs/tambah.png)
 
 ## Tambah data
-![](/imgs/tambah.png)
+![](/Pertemuan12/imgs/image.png)
 
 ## Ubah data
 (disini ubah nama dan nis)
-![](/imgs/ubah.png)
+![](/Pertemuan12/imgs/ubah.png)
 
 
 ## Hapus data
-![](/imgs/index.png)
+![](/Pertemuan12/imgs/tambah.png)
