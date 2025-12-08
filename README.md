@@ -13,3 +13,7 @@
 3. [Pertemuan 7](./Pertemuan%207/)  
 3. [Pertemuan 9](./Pertemuan9/)  
 3. [Pertemuan 11](./Pertemuan11/)  
+3. [Pertemuan 12](./Pertemuan12/)  
+3. [Pertemuan 13](./Pertemuan13/)  
+3. [Pertemuan 14](./Pertemuan14/)  
+3. [Pertemuan 15](./Pertemuan15/)  

@@ -5,7 +5,7 @@ FPDF (FREE PDF) adalah library open-source yang bisa digunakan untuk membuat lap
 Berikut adalah dokumentasi hasilnya:
 
 ### Tampilan awal :
-![](/1.png)
+![](/Pertemuan15/1.png)
 
 ### Setelah menambahkan data ke query :
-![](/2.png)
+![](/Pertemuan15/2.png)
